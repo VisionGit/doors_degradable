@@ -27,17 +27,6 @@ local unbreakableDoors = {
 	[2005] = true,--Training Room Button
 	[1917] = true,--Jedi Holocron Vault Spinny Shit
 	[1915] = true--Jedi Holocron Vault Button
-	/*--Venator VR
-	[2306] = true,
-	[2307] = true,
-	[2278] = true,
-	[2276] = true,
-	[2274] = true,
-	[2272] = true,
-	[1408] = true,
-	[1399] = true,
-	[1395] = true,
-	[1412] = true*/
 }
 --[[---------------------------------------------------------------------------------------
 End of Configuration, don't touch anything below unless you're sure of what you're doing --
