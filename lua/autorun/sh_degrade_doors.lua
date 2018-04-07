@@ -61,8 +61,7 @@ if(SERVER)then
 			end)
 			return
 		else
-			if(ent:isLocked() or unbreakableDoors[ent:MapCreationID()])then return end
-			if(ent.cooldownBreak)then return end
+			if(ent:isLocked() or unbreakableDoors[ent:MapCreationID()] or ent.cooldownBreak)then return end
 			if(math.random(1,chanceDegraded)==1)then
 				ent:SetNWBool("isDoorBroken",true)
 				ent:Fire("close")
