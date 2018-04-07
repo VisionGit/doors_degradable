@@ -1,4 +1,4 @@
-/*---------------------------------------------------------------------------
+--[[---------------------------------------------------------------------------------------
 Degradable StarwarsRP doors
 Developed By Derpes, For Resolute Networks (Public on Facepunch though <3)
 
@@ -7,7 +7,7 @@ Let me know, I'm always up for criticism and want to learn from my mistakes!
 
 Thanks for downloading this script and checking it out, I hope it helps increase
 engineer RP upon your server!
----------------------------------------------------------------------------*/
+-----------------------------------------------------------------------------------------]]
 
 --[[---------------------------------------------------------------------------------------
 Configuration                                                                            --
