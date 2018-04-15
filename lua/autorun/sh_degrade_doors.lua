@@ -28,11 +28,17 @@ local unbreakableDoors = {
 	[1917] = true,--Jedi Holocron Vault Spinny Shit
 	[1915] = true--Jedi Holocron Vault Button
 }
+local downloadFonts = true --Would you like the fonts to be downloaded to the client upon joining?
+--If set to false, you can add these fonts to your own workshop item.
 --[[---------------------------------------------------------------------------------------
 End of Configuration, don't touch anything below unless you're sure of what you're doing --
 -----------------------------------------------------------------------------------------]]
 
 if(SERVER)then
+	if(downloadFonts)then
+		resource.AddFile("resource/fonts/bebasneue.ttf")
+		resource.AddFile("resource/fonts/bebasneuebook.ttf")
+	end
 	util.AddNetworkString("doorBreakClient")
 	if not(table.HasValue(mapsTable,game.GetMap()))then return end
 	local cooldownMsg
